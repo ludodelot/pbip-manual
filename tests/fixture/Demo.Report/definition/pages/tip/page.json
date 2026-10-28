@@ -1,0 +1,9 @@
+{
+  "name": "tip",
+  "displayName": "Tooltip",
+  "height": 200,
+  "width": 300,
+  "pageBinding": {
+    "type": "Tooltip"
+  }
+}

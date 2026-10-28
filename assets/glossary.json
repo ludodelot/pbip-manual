@@ -1,0 +1,311 @@
+{
+  "_note": "Starter glossary. Verify terms against the Microsoft Language Portal for Power BI before publishing.",
+  "terms": [
+    {
+      "id": "measure",
+      "en": "measure",
+      "es": "medida",
+      "it": "misura",
+      "fr": "mesure",
+      "definition": {
+        "en": "A calculation, such as total sales, that updates with your filters.",
+        "es": "Un cálculo, como las ventas totales, que se actualiza con tus filtros.",
+        "it": "Un calcolo, come le vendite totali, che si aggiorna con i filtri.",
+        "fr": "Un calcul, comme le total des ventes, qui se met à jour avec vos filtres."
+      },
+      "avoid": {
+        "es": [
+          "métrica"
+        ],
+        "it": [
+          "misurazione"
+        ],
+        "fr": [
+          "mesurer"
+        ]
+      }
+    },
+    {
+      "id": "kpi",
+      "en": "KPI",
+      "es": "KPI",
+      "it": "KPI",
+      "fr": "KPI",
+      "definition": {
+        "en": "Key performance indicator: the main number used to judge results.",
+        "es": "Indicador clave de rendimiento: la cifra principal para valorar resultados.",
+        "it": "Indicatore chiave di prestazione: il numero principale per valutare i risultati.",
+        "fr": "Indicateur clé de performance : le chiffre principal pour juger les résultats."
+      }
+    },
+    {
+      "id": "dashboard",
+      "en": "dashboard",
+      "es": "panel",
+      "it": "dashboard",
+      "fr": "tableau de bord",
+      "definition": {
+        "en": "A page that gathers the most important figures at a glance.",
+        "es": "Una página que reúne de un vistazo las cifras más importantes.",
+        "it": "Una pagina che riunisce a colpo d'occhio i dati più importanti.",
+        "fr": "Une page qui rassemble d'un coup d'œil les chiffres les plus importants."
+      },
+      "avoid": {
+        "es": [
+          "tablero"
+        ]
+      }
+    },
+    {
+      "id": "report_page",
+      "en": "report page",
+      "es": "página del informe",
+      "it": "pagina del report",
+      "fr": "page du rapport",
+      "definition": {
+        "en": "One tab of the report, shown at the bottom of the screen.",
+        "es": "Una pestaña del informe, que aparece en la parte inferior de la pantalla.",
+        "it": "Una scheda del report, mostrata in basso nella schermata.",
+        "fr": "Un onglet du rapport, affiché en bas de l'écran."
+      }
+    },
+    {
+      "id": "slicer",
+      "en": "slicer",
+      "es": "segmentación de datos",
+      "it": "filtro dati",
+      "fr": "segment",
+      "definition": {
+        "en": "A control on the page, such as a list or date range, to filter what you see.",
+        "es": "Un control en la página, como una lista o un rango de fechas, para filtrar lo que ves.",
+        "it": "Un controllo nella pagina, come un elenco o un intervallo di date, per filtrare ciò che vedi.",
+        "fr": "Un contrôle sur la page, comme une liste ou une plage de dates, pour filtrer ce que vous voyez."
+      },
+      "avoid": {
+        "es": [
+          "slicer"
+        ],
+        "fr": [
+          "slicer"
+        ]
+      }
+    },
+    {
+      "id": "filter",
+      "en": "filter",
+      "es": "filtro",
+      "it": "filtro",
+      "fr": "filtre",
+      "definition": {
+        "en": "A rule that limits the data shown, for example one country or one month.",
+        "es": "Una regla que limita los datos mostrados, por ejemplo un país o un mes.",
+        "it": "Una regola che limita i dati mostrati, ad esempio un paese o un mese.",
+        "fr": "Une règle qui limite les données affichées, par exemple un pays ou un mois."
+      }
+    },
+    {
+      "id": "drill_through",
+      "en": "drill-through",
+      "es": "obtención de detalles",
+      "it": "drill-through",
+      "fr": "extraction",
+      "definition": {
+        "en": "Right-click a value to jump to a detail page about it.",
+        "es": "Clic derecho en un valor para saltar a una página de detalle sobre él.",
+        "it": "Clic destro su un valore per passare a una pagina di dettaglio.",
+        "fr": "Clic droit sur une valeur pour accéder à une page de détail."
+      },
+      "_review": "Confirm the official Power BI term per language (Microsoft Language Portal) before publishing."
+    },
+    {
+      "id": "tooltip",
+      "en": "tooltip",
+      "es": "información sobre herramientas",
+      "it": "descrizione comando",
+      "fr": "info-bulle",
+      "definition": {
+        "en": "The small box that appears when you hover over a chart element.",
+        "es": "El cuadro pequeño que aparece al pasar el cursor sobre un elemento del gráfico.",
+        "it": "Il piccolo riquadro che appare passando il mouse su un elemento del grafico.",
+        "fr": "La petite boîte qui s'affiche au survol d'un élément du graphique."
+      }
+    },
+    {
+      "id": "bookmark",
+      "en": "bookmark",
+      "es": "marcador",
+      "it": "segnalibro",
+      "fr": "signet",
+      "definition": {
+        "en": "A saved view of the report with its filters, which you can reopen with one click.",
+        "es": "Una vista guardada del informe con sus filtros, que puedes reabrir con un clic.",
+        "it": "Una vista salvata del report con i suoi filtri, da riaprire con un clic.",
+        "fr": "Une vue enregistrée du rapport avec ses filtres, que vous rouvrez en un clic."
+      }
+    },
+    {
+      "id": "visual",
+      "en": "visual",
+      "es": "objeto visual",
+      "it": "oggetto visivo",
+      "fr": "visuel",
+      "definition": {
+        "en": "Any chart, table, card or map on a page.",
+        "es": "Cualquier gráfico, tabla, tarjeta o mapa de una página.",
+        "it": "Qualsiasi grafico, tabella, scheda o mappa in una pagina.",
+        "fr": "Tout graphique, tableau, carte ou plan sur une page."
+      }
+    },
+    {
+      "id": "semantic_model",
+      "en": "semantic model",
+      "es": "modelo semántico",
+      "it": "modello semantico",
+      "fr": "modèle sémantique",
+      "definition": {
+        "en": "The data and calculations behind the report.",
+        "es": "Los datos y cálculos que hay detrás del informe.",
+        "it": "I dati e i calcoli che stanno dietro al report.",
+        "fr": "Les données et calculs qui se trouvent derrière le rapport."
+      }
+    },
+    {
+      "id": "refresh",
+      "en": "refresh",
+      "es": "actualización",
+      "it": "aggiornamento",
+      "fr": "actualisation",
+      "definition": {
+        "en": "When the data is reloaded from its source.",
+        "es": "El momento en que los datos se vuelven a cargar desde su origen.",
+        "it": "Il momento in cui i dati vengono ricaricati dalla fonte.",
+        "fr": "Le moment où les données sont rechargées depuis leur source."
+      },
+      "avoid": {
+        "es": [
+          "refresco"
+        ],
+        "fr": [
+          "rafraîchissement"
+        ]
+      }
+    },
+    {
+      "id": "granularity",
+      "en": "granularity",
+      "es": "granularidad",
+      "it": "granularità",
+      "fr": "granularité",
+      "definition": {
+        "en": "The level of detail of the data, such as day, store or product.",
+        "es": "El nivel de detalle de los datos, como día, tienda o producto.",
+        "it": "Il livello di dettaglio dei dati, come giorno, negozio o prodotto.",
+        "fr": "Le niveau de détail des données, comme le jour, le magasin ou le produit."
+      }
+    },
+    {
+      "id": "yoy",
+      "en": "year over year",
+      "es": "interanual",
+      "it": "anno su anno",
+      "fr": "d'une année sur l'autre",
+      "definition": {
+        "en": "Compares a period with the same period of the previous year.",
+        "es": "Compara un periodo con el mismo periodo del año anterior.",
+        "it": "Confronta un periodo con lo stesso periodo dell'anno precedente.",
+        "fr": "Compare une période avec la même période de l'année précédente."
+      }
+    },
+    {
+      "id": "ytd",
+      "en": "year to date",
+      "es": "acumulado del año",
+      "it": "progressivo annuo",
+      "fr": "cumul annuel",
+      "definition": {
+        "en": "From 1 January up to the latest date in the data.",
+        "es": "Desde el 1 de enero hasta la última fecha de los datos.",
+        "it": "Dal 1° gennaio all'ultima data presente nei dati.",
+        "fr": "Du 1er janvier à la dernière date présente dans les données."
+      }
+    },
+    {
+      "id": "mtd",
+      "en": "month to date",
+      "es": "acumulado del mes",
+      "it": "progressivo mensile",
+      "fr": "cumul mensuel",
+      "definition": {
+        "en": "From the first day of the month up to the latest date in the data.",
+        "es": "Desde el primer día del mes hasta la última fecha de los datos.",
+        "it": "Dal primo giorno del mese all'ultima data presente nei dati.",
+        "fr": "Du premier jour du mois à la dernière date présente dans les données."
+      }
+    },
+    {
+      "id": "previous_year",
+      "en": "previous year",
+      "es": "año anterior",
+      "it": "anno precedente",
+      "fr": "année précédente",
+      "definition": {
+        "en": "The same period one year earlier, used as a reference.",
+        "es": "El mismo periodo un año antes, usado como referencia.",
+        "it": "Lo stesso periodo di un anno prima, usato come riferimento.",
+        "fr": "La même période un an plus tôt, utilisée comme référence."
+      }
+    },
+    {
+      "id": "target",
+      "en": "target",
+      "es": "objetivo",
+      "it": "obiettivo",
+      "fr": "objectif",
+      "definition": {
+        "en": "The value the business aims to reach.",
+        "es": "El valor que la empresa quiere alcanzar.",
+        "it": "Il valore che l'azienda vuole raggiungere.",
+        "fr": "La valeur que l'entreprise veut atteindre."
+      }
+    },
+    {
+      "id": "actual",
+      "en": "actual",
+      "es": "real",
+      "it": "consuntivo",
+      "fr": "réel",
+      "definition": {
+        "en": "What really happened, as opposed to the target or forecast.",
+        "es": "Lo que realmente ocurrió, frente al objetivo o la previsión.",
+        "it": "Ciò che è realmente accaduto, rispetto a obiettivo o previsione.",
+        "fr": "Ce qui s'est réellement passé, par opposition à l'objectif ou à la prévision."
+      }
+    },
+    {
+      "id": "variance",
+      "en": "variance",
+      "es": "variación",
+      "it": "scostamento",
+      "fr": "écart",
+      "definition": {
+        "en": "The difference between two values, for example actual vs. target.",
+        "es": "La diferencia entre dos valores, por ejemplo real frente a objetivo.",
+        "it": "La differenza tra due valori, ad esempio consuntivo contro obiettivo.",
+        "fr": "La différence entre deux valeurs, par exemple réel contre objectif."
+      }
+    },
+    {
+      "id": "rls",
+      "en": "row-level security",
+      "es": "seguridad a nivel de fila",
+      "it": "sicurezza a livello di riga",
+      "fr": "sécurité au niveau des lignes",
+      "definition": {
+        "en": "A rule that shows each person only the data they are allowed to see.",
+        "es": "Una regla que muestra a cada persona solo los datos que puede ver.",
+        "it": "Una regola che mostra a ciascuno solo i dati che può vedere.",
+        "fr": "Une règle qui n'affiche à chacun que les données qu'il peut voir."
+      }
+    }
+  ]
+}

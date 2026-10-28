@@ -1,0 +1,168 @@
+{
+  "_note": "Example content for tests/fixture. Replace with your report. English is the source language.",
+  "languages": [
+    "en",
+    "es",
+    "it",
+    "fr"
+  ],
+  "title": {
+    "en": "Sales Demo - User manual",
+    "es": "Demo de ventas - Manual de usuario",
+    "it": "Demo vendite - Manuale d'uso",
+    "fr": "Démo ventes - Manuel utilisateur"
+  },
+  "subtitle": {
+    "en": "How to read each page of the report",
+    "es": "Cómo leer cada página del informe",
+    "it": "Come leggere ogni pagina del report",
+    "fr": "Comment lire chaque page du rapport"
+  },
+  "pages": {
+    "overview": {
+      "text": {
+        "en": {
+          "headline": "See how sales are doing this month and compare with last year",
+          "use_it_when": "You want a quick health check of sales before a meeting.",
+          "source": "Sales system (monthly extract).",
+          "refresh": "TBD",
+          "granularity": "Month and product category.",
+          "main_kpi": "Total Sales",
+          "comparison": "Previous year (same month)."
+        },
+        "es": {
+          "headline": "Consulta cómo van las ventas este mes y compáralas con el año anterior",
+          "use_it_when": "Quieres un chequeo rápido de las ventas antes de una reunión.",
+          "source": "Sistema de ventas (extracción mensual).",
+          "refresh": "TBD",
+          "granularity": "Mes y categoría de producto.",
+          "main_kpi": "Total Sales",
+          "comparison": "Año anterior (mismo mes)."
+        },
+        "it": {
+          "headline": "Guarda come vanno le vendite questo mese e confrontale con l'anno scorso",
+          "use_it_when": "Vuoi un controllo rapido delle vendite prima di una riunione.",
+          "source": "Sistema vendite (estrazione mensile).",
+          "refresh": "TBD",
+          "granularity": "Mese e categoria di prodotto.",
+          "main_kpi": "Total Sales",
+          "comparison": "Anno precedente (stesso mese)."
+        },
+        "fr": {
+          "headline": "Voyez où en sont les ventes ce mois-ci et comparez avec l'an dernier",
+          "use_it_when": "Vous voulez un point rapide sur les ventes avant une réunion.",
+          "source": "Système de ventes (extraction mensuelle).",
+          "refresh": "TBD",
+          "granularity": "Mois et catégorie de produit.",
+          "main_kpi": "Total Sales",
+          "comparison": "Année précédente (même mois)."
+        }
+      },
+      "zones": [
+        {
+          "n": 1,
+          "visuals": [
+            "v_kpi1",
+            "v_kpi2"
+          ],
+          "text": {
+            "en": "The two headline figures: total sales and margin %.",
+            "es": "Las dos cifras principales: ventas totales y margen %.",
+            "it": "Le due cifre principali: vendite totali e margine %.",
+            "fr": "Les deux chiffres clés : ventes totales et marge %."
+          }
+        },
+        {
+          "n": 2,
+          "visuals": [
+            "v_trend"
+          ],
+          "text": {
+            "en": "Monthly sales compared with the previous year.",
+            "es": "Ventas mensuales comparadas con el año anterior.",
+            "it": "Vendite mensili confrontate con l'anno precedente.",
+            "fr": "Ventes mensuelles comparées à l'année précédente."
+          }
+        },
+        {
+          "n": 3,
+          "visuals": [
+            "v_slicer"
+          ],
+          "text": {
+            "en": "Pick a category to filter the whole page.",
+            "es": "Elige una categoría para filtrar toda la página.",
+            "it": "Scegli una categoria per filtrare tutta la pagina.",
+            "fr": "Choisissez une catégorie pour filtrer toute la page."
+          }
+        },
+        {
+          "n": 4,
+          "visuals": [
+            "v_table"
+          ],
+          "text": {
+            "en": "Top products with their sales.",
+            "es": "Productos principales con sus ventas.",
+            "it": "Prodotti principali con le relative vendite.",
+            "fr": "Principaux produits avec leurs ventes."
+          }
+        }
+      ]
+    },
+    "detail": {
+      "text": {
+        "en": {
+          "headline": "Look at one product in detail",
+          "use_it_when": "You arrived from the overview and want the story behind a product.",
+          "source": "Sales system (monthly extract).",
+          "refresh": "TBD",
+          "granularity": "Product.",
+          "main_kpi": "Total Sales",
+          "comparison": "Other products."
+        },
+        "es": {
+          "headline": "Mira un producto en detalle",
+          "use_it_when": "Llegaste desde la vista general y quieres conocer la historia de un producto.",
+          "source": "Sistema de ventas (extracción mensual).",
+          "refresh": "TBD",
+          "granularity": "Producto.",
+          "main_kpi": "Total Sales",
+          "comparison": "Otros productos."
+        },
+        "it": {
+          "headline": "Guarda un prodotto nel dettaglio",
+          "use_it_when": "Arrivi dalla panoramica e vuoi capire la storia di un prodotto.",
+          "source": "Sistema vendite (estrazione mensile).",
+          "refresh": "TBD",
+          "granularity": "Prodotto.",
+          "main_kpi": "Total Sales",
+          "comparison": "Altri prodotti."
+        },
+        "fr": {
+          "headline": "Regardez un produit en détail",
+          "use_it_when": "Vous venez de la vue d'ensemble et voulez comprendre l'histoire d'un produit.",
+          "source": "Système de ventes (extraction mensuelle).",
+          "refresh": "TBD",
+          "granularity": "Produit.",
+          "main_kpi": "Total Sales",
+          "comparison": "Autres produits."
+        }
+      },
+      "zones": [
+        {
+          "n": 1,
+          "visuals": [
+            "d_bar"
+          ],
+          "text": {
+            "en": "Sales by product, highest first.",
+            "es": "Ventas por producto, de mayor a menor.",
+            "it": "Vendite per prodotto, dal più alto.",
+            "fr": "Ventes par produit, du plus élevé au plus bas."
+          }
+        }
+      ]
+    }
+  }
+}

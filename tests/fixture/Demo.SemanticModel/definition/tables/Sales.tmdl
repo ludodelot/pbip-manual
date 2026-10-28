@@ -1,0 +1,31 @@
+table Sales
+	lineageTag: 11111111-1111-1111-1111-111111111111
+
+	/// Net invoiced sales amount in EUR
+	measure 'Total Sales' = SUM(Sales[Amount])
+		formatString: #,0
+		displayFolder: KPIs
+
+	/// Gross margin divided by net sales
+	measure 'Margin %' =
+			DIVIDE(
+				SUM(Sales[Margin]),
+				[Total Sales]
+			)
+		formatString: 0.0%
+
+	measure 'Sales PY' = ```
+			CALCULATE([Total Sales], SAMEPERIODLASTYEAR('Calendar'[Date]))
+			```
+		formatString: #,0
+
+	column Amount
+		dataType: double
+
+	partition Sales = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("server", "db")
+				in
+				    Source

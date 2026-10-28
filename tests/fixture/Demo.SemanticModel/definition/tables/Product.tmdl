@@ -1,0 +1,4 @@
+table Product
+
+	column Name
+		dataType: string

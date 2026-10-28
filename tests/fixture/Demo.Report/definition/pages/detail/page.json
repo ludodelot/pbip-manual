@@ -1,0 +1,11 @@
+{
+  "name": "detail",
+  "displayName": "Product Detail",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "pageBinding": {
+    "name": "b1",
+    "type": "Drillthrough"
+  }
+}
